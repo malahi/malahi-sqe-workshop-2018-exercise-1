@@ -12,6 +12,7 @@ function table(line , type , name , condition , value)
 
 var my_table = [];
 
+
 const push = (line , type , name , condition , value) => {
     my_table.push(new table(line , type , name , condition , value ));
 };
